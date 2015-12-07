@@ -21,6 +21,11 @@ struct s1
 }qa[300002];
 int ans[300003] , bits[3000002];
 int n ;  
+/*
+get function batata hai ki ek particular index tak ka cumuative sum kitna ayega logn compleity mein  
+aur update function bits array me update karta hai logn complexity mein . 
+
+*/
 int get(int index)
 {
 	int c=0 ; 
